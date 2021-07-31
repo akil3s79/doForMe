@@ -7,3 +7,5 @@ Debes tener una carpeta llamada proyectos (en tu home, o si usas root en su dire
 El propio script se encarga de preguntar qué herramientas quieres lanzar y mira si tienes los directorios creados. También guarda los resultados de dichas herramientas con el nombre de cada una en su directorio correspondiente.
 
 Este script fue creado en 2018 y aunque es funcional, está pendiente de revisión/actualización.
+
+Gracias a Rodri por enseñarme el camino de bash :)
