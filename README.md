@@ -19,7 +19,17 @@ Revisar el script
 Implementar/mejorar herramientas
 Posible migración a python
 
+2025. Things done:
+Código mejorado y migrado a python (por fin).
 
+argparse para configurar proyecto, ruta de IPs y qué herramientas ejecutar.
+Verifica que las herramientas necesarias existen (shutil.which).
+Crea estructura de directorios (Path(...).mkdir(parents=True, exist_ok=True)).
+Itera sobre objetivos con while read equivalent y usa ThreadPoolExecutor para paralelizar por host.
+Ejecuta comandos con subprocess.run redirigiendo salida a ficheros, con timeout.
+Manejo de excepciones y logging sencillo.
+
+Guarda esto como doForMe.py y ejecútalo con python3 recon_runner.py -p prueba -i ips.txt --wpscan --nikto --dirsearch --workers 10.
 
 Gracias a Rodri por enseñarme el camino de bash :)
 
